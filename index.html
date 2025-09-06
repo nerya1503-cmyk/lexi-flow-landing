@@ -1,32 +1,24 @@
-<!DOCTYPE html>
-<html lang="he">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LexiFlow Landing</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>LexiFlow - מערכת ניהול משרד עורכי דין מבוססת AI</h1>
-    <p>כל מה שעורך הדין המודרני צריך, במקום אחד.</p>
-  </header>
-  <main>
-    <section>
-      <h2>למה לבחור ב-LexiFlow?</h2>
-      <ul>
-        <li>סוכן AI חכם לייעוץ משפטי</li>
-        <li>ניהול תיקים ולקוחות</li>
-        <li>חשבוניות וגבייה אוטומטיות</li>
-        <li>חתימות דיגיטליות</li>
-      </ul>
-    </section>
-    <section class="cta">
-      <a href="#">התחל עכשיו</a>
-    </section>
-  </main>
-  <footer>
-    <p>© 2025 LexiFlow</p>
-  </footer>
-</body>
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LexiFlow – מערכת ניהול משרד עורכי דין (AI)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: { DEFAULT: '#7C3AED' }
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="min-h-screen bg-[#0b0b12] text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
